@@ -17,14 +17,14 @@ from math import log
 import numpy as np
 import tensorflow as tf
 
-from crt import *
+from tensorflow_encrypted.crt import *
 
 log2 = lambda x: log(x)/log(2)
 prod = lambda xs: reduce(lambda x,y: x*y, xs)
 
-from protocol import get_active_protocol
+from tensorflow_encrypted.protocol import get_active_protocol
 
-from config import (
+from tensorflow_encrypted.config import (
     session, run
 )
 

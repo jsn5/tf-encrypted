@@ -1,2 +1,2 @@
 
-from logistic import *
+from tensorflow_encrypted.estimator.logistic import *

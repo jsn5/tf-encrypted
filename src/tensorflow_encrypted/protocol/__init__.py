@@ -31,6 +31,6 @@ def exit_protocol(protocol):
     # FIXME[Morten] check that `protocol` is head?
     __active_protocols.pop()
 
-from two_party_spdz import TwoPartySPDZ
-from secureml import SecureML
-from securenn import SecureNN
+from tensorflow_encrypted.protocol.two_party_spdz import TwoPartySPDZ
+from tensorflow_encrypted.protocol.secureml import SecureML
+from tensorflow_encrypted.protocol.securenn import SecureNN

@@ -1,8 +1,8 @@
 import numpy as np
 import tensorflow as tf
 import tensorflow_encrypted as tfe
-
-class FakeInputProvider(tfe.NumpyInputProvider):
+from tensorflow_encrypted.inputs import NumpyInputProvider
+class FakeInputProvider(NumpyInputProvider):
 
     def __init__(self, device_name):
         super(FakeInputProvider, self).__init__(device_name)

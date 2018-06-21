@@ -1,8 +1,8 @@
 
 import numpy as np
 import tensorflow as tf
-import ops as tfe
-from protocol import Player
+import tensorflow_encrypted.ops as tfe
+from tensorflow_encrypted.protocol import Player
 
 class InputProvider(Player):
 

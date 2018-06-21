@@ -1,5 +1,5 @@
 
-from ..protocol import Protocol
+from tensorflow_encrypted.protocol import Protocol
 
 class TwoPartySPDZ(Protocol):
 
